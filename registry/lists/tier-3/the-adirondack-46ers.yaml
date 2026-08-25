@@ -1,0 +1,14 @@
+slug: the-adirondack-46ers
+name: The Adirondack 46ers
+description: Iconic Northeast hiking achievement.
+tier: 3
+list_category: natural
+governing_body: Adirondack 46ers Club
+dimension: null
+approx_count: 46
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

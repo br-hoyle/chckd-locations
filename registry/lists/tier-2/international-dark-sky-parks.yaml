@@ -1,0 +1,14 @@
+slug: international-dark-sky-parks
+name: International Dark Sky Parks
+description: Growing astronomy & conservation community.
+tier: 2
+list_category: natural
+governing_body: International Dark-Sky Association
+dimension: Country / Region
+approx_count: 201
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

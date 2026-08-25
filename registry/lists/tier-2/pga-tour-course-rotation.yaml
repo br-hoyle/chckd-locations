@@ -1,0 +1,14 @@
+slug: pga-tour-course-rotation
+name: PGA Tour Course Rotation
+description: Golf enthusiasts. Well-documented.
+tier: 2
+list_category: place
+governing_body: PGA Tour
+dimension: null
+approx_count: 46
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

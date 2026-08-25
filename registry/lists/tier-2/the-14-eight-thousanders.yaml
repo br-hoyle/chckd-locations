@@ -1,0 +1,14 @@
+slug: the-14-eight-thousanders
+name: The 14 Eight-Thousanders
+description: Elite mountaineering. Passionate niche.
+tier: 2
+list_category: natural
+governing_body: UIAA / Alpine Clubs
+dimension: null
+approx_count: 14
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

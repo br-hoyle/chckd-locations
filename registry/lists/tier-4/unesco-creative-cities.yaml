@@ -1,0 +1,14 @@
+slug: unesco-creative-cities
+name: UNESCO Creative Cities
+description: Arts and culture travelers.
+tier: 4
+list_category: place
+governing_body: UNESCO
+dimension: World / Continent / Country
+approx_count: 351
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

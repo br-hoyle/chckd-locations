@@ -1,0 +1,14 @@
+slug: named-volcanoes-of-the-world
+name: Named Volcanoes of the World
+description: Geology and adventure community.
+tier: 4
+list_category: natural
+governing_body: Smithsonian Global Volcanism Program
+dimension: World / Continent / Country
+approx_count: 1501
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

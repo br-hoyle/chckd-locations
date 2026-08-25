@@ -1,0 +1,14 @@
+slug: top-50-vineyards
+name: Top 50 Vineyards
+description: Have the best glass of wine you'll ever have.
+tier: 1
+list_category: place
+governing_body: The Worlds 50 Best
+dimension: World / Continent / Year
+approx_count: 50
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

@@ -1,0 +1,14 @@
+slug: seven-natural-wonders-of-the-world
+name: Seven Natural Wonders of the World
+description: Short, aspirational, globally known.
+tier: 1
+list_category: natural
+governing_body: CNN / widely recognized
+dimension: null
+approx_count: 7
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

@@ -1,0 +1,14 @@
+slug: serie-a-stadiums
+name: Serie A Stadiums
+description: Italian football fans.
+tier: 3
+list_category: place
+governing_body: Lega Serie A
+dimension: null
+approx_count: 20
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

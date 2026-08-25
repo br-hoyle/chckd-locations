@@ -1,0 +1,14 @@
+slug: f1-grand-prix-circuits
+name: F1 Grand Prix Circuits
+description: Rapidly growing F1 audience globally.
+tier: 2
+list_category: place
+governing_body: FIA
+dimension: null
+approx_count: 25
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

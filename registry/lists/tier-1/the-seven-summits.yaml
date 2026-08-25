@@ -1,0 +1,79 @@
+slug: the-seven-summits
+name: The Seven Summits
+description: The highest mountain on each continent — mountaineering's classic bucket
+  list.
+tier: 1
+list_category: natural
+governing_body: Various / Alpine Clubs
+dimension: null
+approx_count: 7
+tags:
+- natural.land.mountains.summit
+source:
+  type: static
+  notes: 'Fixed membership, not worth an API — see sources/static.py. Elevations from
+    Peakbagger/Wikipedia consensus figures, cross-continent (the Kosciuszko vs. Puncak
+    Jaya "Australia vs. Australasia" variant is tracked separately as a tag on Puncak
+    Jaya, not a second list, since the taxonomy sheet only calls for one Seven Summits
+    list at launch).
+
+    '
+  places:
+  - name: Mount Everest
+    external_id: everest
+    external_id_source: manual
+    category_path: natural.land.mountains.summit
+    lat: 27.9881
+    lng: 86.925
+    country_code: NP
+    description: Highest peak in Asia, and the world.
+  - name: Aconcagua
+    external_id: aconcagua
+    external_id_source: manual
+    category_path: natural.land.mountains.summit
+    lat: -32.6532
+    lng: -70.0109
+    country_code: AR
+    description: Highest peak in South America.
+  - name: Denali
+    external_id: denali
+    external_id_source: manual
+    category_path: natural.land.mountains.summit
+    lat: 63.0692
+    lng: -151.007
+    country_code: US
+    description: Highest peak in North America.
+  - name: Kilimanjaro
+    external_id: kilimanjaro
+    external_id_source: manual
+    category_path: natural.land.mountains.summit
+    lat: -3.0674
+    lng: 37.3556
+    country_code: TZ
+    description: Highest peak in Africa.
+  - name: Mount Elbrus
+    external_id: elbrus
+    external_id_source: manual
+    category_path: natural.land.mountains.summit
+    lat: 43.3499
+    lng: 42.4453
+    country_code: RU
+    description: Highest peak in Europe.
+  - name: Puncak Jaya
+    external_id: puncak-jaya
+    external_id_source: manual
+    category_path: natural.land.mountains.summit
+    lat: -4.0784
+    lng: 137.1585
+    country_code: ID
+    description: Highest peak in Oceania/Australasia (the "Seven Summits" variant
+      used in place of Mount Kosciuszko).
+  - name: Vinson Massif
+    external_id: vinson-massif
+    external_id_source: manual
+    category_path: natural.land.mountains.summit
+    lat: -78.5254
+    lng: -85.6172
+    country_code: AQ
+    description: Highest peak in Antarctica.
+status: active

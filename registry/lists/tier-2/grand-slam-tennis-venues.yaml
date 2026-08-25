@@ -1,0 +1,14 @@
+slug: grand-slam-tennis-venues
+name: Grand Slam Tennis Venues
+description: Tennis fans. Short aspirational list.
+tier: 2
+list_category: place
+governing_body: ITF / Grand Slam orgs
+dimension: null
+approx_count: 4
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

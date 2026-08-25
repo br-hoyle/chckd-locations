@@ -1,0 +1,14 @@
+slug: us-historic-lighthouses
+name: US Historic Lighthouses
+description: Die-hard lighthouse community. Regional appeal.
+tier: 3
+list_category: natural
+governing_body: US Coast Guard / NPS
+dimension: State
+approx_count: 701
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

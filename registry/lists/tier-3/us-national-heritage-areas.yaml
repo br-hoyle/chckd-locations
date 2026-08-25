@@ -1,0 +1,14 @@
+slug: us-national-heritage-areas
+name: US National Heritage Areas
+description: Cultural travelers.
+tier: 3
+list_category: place
+governing_body: National Park Service
+dimension: null
+approx_count: 56
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

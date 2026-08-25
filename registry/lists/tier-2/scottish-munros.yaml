@@ -1,0 +1,14 @@
+slug: scottish-munros
+name: Scottish Munros
+description: Die-hard bagging community in UK.
+tier: 2
+list_category: natural
+governing_body: Scottish Mountaineering Club
+dimension: null
+approx_count: 282
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

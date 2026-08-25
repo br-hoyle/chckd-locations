@@ -1,0 +1,14 @@
+slug: new-seven-wonders-of-the-world
+name: New Seven Wonders of the World
+description: Highly referenced modern list.
+tier: 1
+list_category: place
+governing_body: New7Wonders Foundation
+dimension: null
+approx_count: 7
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

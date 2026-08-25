@@ -1,0 +1,14 @@
+slug: the-three-great-capes
+name: The Three Great Capes
+description: Iconic sailing milestone — niche but die-hard.
+tier: 1
+list_category: natural
+governing_body: Maritime tradition
+dimension: null
+approx_count: 3
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

@@ -1,0 +1,19 @@
+slug: us-national-parks
+name: US National Parks
+description: 63 parks. Iconic American bucket list.
+tier: 1
+list_category: natural
+governing_body: National Park Service
+dimension: null
+approx_count: 63
+tags: []
+source:
+  type: nps
+  notes: 'NPS''s own API (see sources/nps.py) — narrower but more precise than Protected
+    Planet for this exact designation, and returns richer metadata (address, description).
+    Needs a free NPS_API_KEY (nps.gov/subjects/developer). Untested against the live
+    API.
+
+    '
+  category_path: natural.park.national_park
+status: stub

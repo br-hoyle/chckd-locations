@@ -1,0 +1,14 @@
+slug: us-state-capitols
+name: US State Capitols
+description: Popular road trip goal. Clean finite list.
+tier: 1
+list_category: place
+governing_body: US Government
+dimension: null
+approx_count: 50
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

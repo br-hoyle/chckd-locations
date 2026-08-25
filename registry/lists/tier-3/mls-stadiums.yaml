@@ -1,0 +1,14 @@
+slug: mls-stadiums
+name: MLS Stadiums
+description: Growing US soccer audience.
+tier: 3
+list_category: place
+governing_body: MLS
+dimension: null
+approx_count: 30
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

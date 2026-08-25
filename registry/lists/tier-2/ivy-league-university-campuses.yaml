@@ -1,0 +1,14 @@
+slug: ivy-league-university-campuses
+name: Ivy League University Campuses
+description: Aspirational. Parents, students, alumni.
+tier: 2
+list_category: place
+governing_body: Ivy League Council
+dimension: null
+approx_count: 8
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

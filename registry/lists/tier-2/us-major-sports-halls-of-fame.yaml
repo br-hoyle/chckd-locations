@@ -1,0 +1,14 @@
+slug: us-major-sports-halls-of-fame
+name: US Major Sports Halls of Fame
+description: Sports tourists. Passionate communities.
+tier: 2
+list_category: place
+governing_body: Various
+dimension: null
+approx_count: 16
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

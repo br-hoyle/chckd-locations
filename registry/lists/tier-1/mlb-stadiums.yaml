@@ -1,0 +1,14 @@
+slug: mlb-stadiums
+name: MLB Stadiums
+description: 30 stadiums. Passionate fan base.
+tier: 1
+list_category: place
+governing_body: MLB
+dimension: null
+approx_count: 30
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

@@ -1,0 +1,20 @@
+slug: us-national-marine-sanctuaries
+name: US National Marine Sanctuaries
+description: Divers and ocean enthusiasts.
+tier: 2
+list_category: natural
+governing_body: NOAA
+dimension: null
+approx_count: 15
+tags: []
+source:
+  type: protected_planet
+  notes: Protected Planet (WDPA) API — see sources/protected_planet.py. Needs PROTECTED_PLANET_API_KEY
+    and a real designation_id looked up for this designation (one exploratory call
+    filtered by country, inspect the `designation` field on results) added to params
+    below. Untested against the live API — verify the returned count against approx_count
+    before flipping status to active.
+  category_path: natural.park.sanctuary
+  params:
+    country: USA
+status: stub

@@ -1,0 +1,14 @@
+slug: us-states
+name: US States
+description: The most universal American travel list.
+tier: 1
+list_category: regional
+governing_body: US Government
+dimension: null
+approx_count: 50
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

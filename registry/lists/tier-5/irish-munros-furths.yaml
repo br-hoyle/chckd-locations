@@ -1,0 +1,14 @@
+slug: irish-munros-furths
+name: Irish Munros (Furths)
+description: Irish peak baggers.
+tier: 5
+list_category: natural
+governing_body: Scottish Mountaineering Club
+dimension: null
+approx_count: 271
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

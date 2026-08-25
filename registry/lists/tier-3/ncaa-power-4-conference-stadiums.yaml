@@ -1,0 +1,14 @@
+slug: ncaa-power-4-conference-stadiums
+name: NCAA Power 4 Conference Stadiums
+description: College football fans — massive audience.
+tier: 3
+list_category: place
+governing_body: NCAA
+dimension: Conference
+approx_count: 66
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

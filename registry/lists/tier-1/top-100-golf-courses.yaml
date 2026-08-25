@@ -1,0 +1,14 @@
+slug: top-100-golf-courses
+name: Top 100 Golf Courses
+description: 100 best places to hit the links.
+tier: 1
+list_category: place
+governing_body: Top 100 Golf Courses
+dimension: World / Continent / Year
+approx_count: 100
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

@@ -1,0 +1,14 @@
+slug: country-capitals
+name: Country Capitals
+description: Pairs with Countries list.
+tier: 1
+list_category: regional
+governing_body: UN / Geographic consensus
+dimension: World / Continent
+approx_count: 195
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

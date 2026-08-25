@@ -1,0 +1,14 @@
+slug: us-national-historic-trails
+name: US National Historic Trails
+description: History enthusiasts. Road trippers.
+tier: 3
+list_category: place
+governing_body: National Park Service
+dimension: null
+approx_count: 19
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

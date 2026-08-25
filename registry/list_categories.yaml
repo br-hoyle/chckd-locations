@@ -1,0 +1,9 @@
+- slug: man-made
+  name: Man-Made
+  parent_slug: null
+- slug: natural
+  name: Natural
+  parent_slug: null
+- slug: regional
+  name: Regional
+  parent_slug: null

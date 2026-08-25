@@ -1,0 +1,14 @@
+slug: the-volcanic-seven-summits
+name: The Volcanic Seven Summits
+description: Mountaineering variant — dedicated following.
+tier: 1
+list_category: natural
+governing_body: Various / Alpine Clubs
+dimension: null
+approx_count: 7
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

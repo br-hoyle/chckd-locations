@@ -1,0 +1,14 @@
+slug: international-dark-sky-reserves
+name: International Dark Sky Reserves
+description: Companion to Dark Sky Parks.
+tier: 2
+list_category: natural
+governing_body: International Dark-Sky Association
+dimension: Country / Region
+approx_count: 21
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

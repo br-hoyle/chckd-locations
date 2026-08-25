@@ -1,0 +1,14 @@
+slug: the-archive-of-weather-climate-extremes
+name: The Archive of Weather & Climate Extremes
+description: Niche but passionate enthusiast community.
+tier: 1
+list_category: natural
+governing_body: World Meteorological Organization
+dimension: null
+approx_count: 21
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

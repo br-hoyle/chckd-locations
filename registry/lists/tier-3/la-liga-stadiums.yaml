@@ -1,0 +1,14 @@
+slug: la-liga-stadiums
+name: La Liga Stadiums
+description: Spanish football. Large global fanbase.
+tier: 3
+list_category: place
+governing_body: La Liga
+dimension: null
+approx_count: 20
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

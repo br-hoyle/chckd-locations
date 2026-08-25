@@ -1,0 +1,14 @@
+slug: james-beard-award-restaurant-cities
+name: James Beard Award Restaurant Cities
+description: Culinary travelers.
+tier: 4
+list_category: place
+governing_body: James Beard Foundation
+dimension: Country / State / City
+approx_count: 41
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

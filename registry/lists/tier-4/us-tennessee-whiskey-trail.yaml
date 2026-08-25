@@ -1,0 +1,14 @@
+slug: us-tennessee-whiskey-trail
+name: US Tennessee Whiskey Trail
+description: Whiskey community. Passionate and active.
+tier: 4
+list_category: place
+governing_body: Tennessee Whiskey Trail
+dimension: null
+approx_count: 28
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

@@ -1,0 +1,14 @@
+slug: iso-regions-iso-3166-1-2
+name: ISO Regions (ISO 3166-1/2)
+description: Stay a night in luxury.
+tier: 1
+list_category: regional
+governing_body: International Organization for Standardization
+dimension: World / Continent / Country
+approx_count: 2495046
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

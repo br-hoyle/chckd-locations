@@ -1,0 +1,14 @@
+slug: us-state-fairs
+name: US State Fairs
+description: Road trip and Americana enthusiasts.
+tier: 5
+list_category: place
+governing_body: Various state orgs
+dimension: null
+approx_count: 51
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

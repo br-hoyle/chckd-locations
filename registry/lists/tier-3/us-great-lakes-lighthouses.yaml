@@ -1,0 +1,14 @@
+slug: us-great-lakes-lighthouses
+name: US Great Lakes Lighthouses
+description: Passionate Great Lakes boating community.
+tier: 3
+list_category: natural
+governing_body: US Coast Guard
+dimension: State
+approx_count: 151
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

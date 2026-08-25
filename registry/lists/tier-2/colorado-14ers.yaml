@@ -1,0 +1,14 @@
+slug: colorado-14ers
+name: Colorado 14ers
+description: Huge Colorado hiking community.
+tier: 2
+list_category: natural
+governing_body: Colorado Mountain Club
+dimension: null
+approx_count: 58
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

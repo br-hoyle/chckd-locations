@@ -1,0 +1,14 @@
+slug: bundesliga-stadiums
+name: Bundesliga Stadiums
+description: German football fans.
+tier: 3
+list_category: place
+governing_body: Deutsche Fußball Liga
+dimension: null
+approx_count: 18
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

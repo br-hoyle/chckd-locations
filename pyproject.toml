@@ -1,0 +1,28 @@
+[project]
+name = "chckd-lists"
+version = "0.1.0"
+description = "Content pipeline: sources, tags, and loads CHCKD's curated place lists into DuckDB."
+authors = [{ name = "CHCKD" }]
+requires-python = ">=3.13,<3.14"
+readme = "README.md"
+dependencies = [
+    "duckdb (>=1.1,<2.0)",
+    "pydantic (>=2.9,<3.0)",
+    "pyyaml (>=6.0,<7.0)",
+    "requests (>=2.32,<3.0)",
+    "openpyxl (>=3.1,<4.0)",
+    "python-dotenv (>=1.0,<2.0)",
+]
+
+[tool.poetry]
+packages = [{ include = "chckd_lists", from = "src" }]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3"
+
+[tool.poetry.scripts]
+chckd-lists = "chckd_lists.cli:main"
+
+[build-system]
+requires = ["poetry-core>=2.0"]
+build-backend = "poetry.core.masonry.api"

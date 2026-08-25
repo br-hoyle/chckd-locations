@@ -1,0 +1,14 @@
+slug: welsh-marilyns
+name: Welsh Marilyns
+description: Peak bagging in Wales. Very niche UK list.
+tier: 5
+list_category: natural
+governing_body: Database of British and Irish Hills
+dimension: null
+approx_count: 161
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

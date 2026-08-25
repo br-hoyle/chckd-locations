@@ -1,0 +1,14 @@
+slug: world-heritage-cities-historic-centers
+name: World Heritage Cities (Historic Centers)
+description: Architecture and history travelers.
+tier: 5
+list_category: place
+governing_body: UNESCO
+dimension: Country / State / City
+approx_count: 151
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

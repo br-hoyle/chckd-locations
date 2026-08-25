@@ -1,0 +1,14 @@
+slug: formula-e-city-circuits
+name: Formula E City Circuits
+description: Growing EV motorsport audience.
+tier: 5
+list_category: place
+governing_body: FIA / Formula E
+dimension: null
+approx_count: 11
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

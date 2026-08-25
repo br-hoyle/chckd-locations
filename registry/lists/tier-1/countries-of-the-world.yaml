@@ -1,0 +1,14 @@
+slug: countries-of-the-world
+name: Countries of the World
+description: Universal. Everyone tracks this.
+tier: 1
+list_category: regional
+governing_body: United Nations
+dimension: null
+approx_count: 195
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

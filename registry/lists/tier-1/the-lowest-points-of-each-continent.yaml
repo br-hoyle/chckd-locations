@@ -1,0 +1,14 @@
+slug: the-lowest-points-of-each-continent
+name: The Lowest Points of Each Continent
+description: Pairs naturally with Seven Summits.
+tier: 1
+list_category: natural
+governing_body: Geographic consensus
+dimension: null
+approx_count: 7
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

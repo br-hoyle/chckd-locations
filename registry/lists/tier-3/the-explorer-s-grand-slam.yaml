@@ -1,0 +1,14 @@
+slug: the-explorer-s-grand-slam
+name: The Explorer's Grand Slam
+description: Both poles + Seven Summits. Ultra niche.
+tier: 3
+list_category: natural
+governing_body: The Explorers Club
+dimension: null
+approx_count: 9
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

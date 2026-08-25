@@ -1,0 +1,14 @@
+slug: ligue-1-stadiums
+name: Ligue 1 Stadiums
+description: French football fans.
+tier: 5
+list_category: place
+governing_body: Ligue de Football Professionnel
+dimension: null
+approx_count: 18
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub

@@ -1,0 +1,14 @@
+slug: us-state-high-points
+name: US State High Points
+description: Active hiking community. Well-documented.
+tier: 2
+list_category: natural
+governing_body: Highpointers Foundation
+dimension: null
+approx_count: 50
+tags: []
+source:
+  type: unimplemented
+  notes: Fill in a real source (static place list, or an api-backed source module)
+    and flip status to active.
+status: stub
