@@ -1,6 +1,6 @@
 slug: the-lowest-points-of-each-continent
 name: The Lowest Points of Each Continent
-description: Pairs naturally with Seven Summits.
+description: The lowest-elevation point on each continent — pairs naturally with the Seven Summits.
 tier: 1
 list_category: natural
 governing_body: Geographic consensus
@@ -8,7 +8,72 @@ dimension: null
 approx_count: 7
 tags: []
 source:
-  type: unimplemented
-  notes: Fill in a real source (static place list, or an api-backed source module)
-    and flip status to active.
-status: stub
+  type: static
+  notes: >
+    Fixed membership, not worth an API. "Lowest point" is mildly contested
+    for a few continents depending on source (Europe's is sometimes given
+    as the Caspian Sea shore, sometimes excluded since the Caspian's status
+    as a lake vs. sea is debated; Antarctica's true lowest point is a
+    subglacial basin under the ice, not a surface location) — commonly-cited
+    values used here, noted per place.
+  places:
+    - name: Dead Sea shore
+      external_id: dead-sea-shore
+      external_id_source: manual
+      category_path: natural.water.lake.salt_lake
+      lat: 31.5590
+      lng: 35.4732
+      country_code: "JO"
+      description: Lowest point in Asia and on Earth's land surface, at about -430m — shared by Israel, Jordan, and the West Bank.
+    - name: Lake Assal
+      external_id: lake-assal
+      external_id_source: manual
+      category_path: natural.water.lake.salt_lake
+      lat: 11.6613
+      lng: 42.4085
+      country_code: "DJ"
+      description: Lowest point in Africa, at about -155m — a hypersaline crater lake in Djibouti.
+    - name: Caspian Sea shore
+      external_id: caspian-sea-shore
+      external_id_source: manual
+      category_path: natural.water.lake.salt_lake
+      lat: 42.0
+      lng: 50.0
+      country_code: "RU"
+      description: Most commonly-cited lowest point in Europe, at about -28m. The world's largest inland body of water.
+    - name: Badwater Basin
+      external_id: badwater-basin
+      external_id_source: manual
+      category_path: natural.land.valley
+      lat: 36.2000
+      lng: -116.7660
+      country_code: "US"
+      description: Lowest point in North America, at about -86m — a salt flat in Death Valley, California.
+    - name: Laguna del Carbón
+      external_id: laguna-del-carbon
+      external_id_source: manual
+      category_path: natural.land.valley
+      lat: -49.5333
+      lng: -68.1500
+      country_code: "AR"
+      description: Lowest point in South America, at about -105m — a salt lake depression in Santa Cruz Province, Argentina.
+    - name: Lake Eyre
+      external_id: lake-eyre
+      external_id_source: manual
+      category_path: natural.water.lake.salt_lake
+      lat: -28.6167
+      lng: 137.3667
+      country_code: "AU"
+      description: Lowest point in Australia, at about -15m — usually a dry salt pan that fills only in exceptional wet years.
+    - name: Deep Lake
+      external_id: deep-lake-antarctica
+      external_id_source: manual
+      category_path: natural.water.lake
+      lat: -68.5667
+      lng: 78.1833
+      country_code: "AQ"
+      description: >
+        Commonly-cited lowest exposed surface point in Antarctica, at about
+        -50m, in the Vestfold Hills. Antarctica's true lowest point is a
+        subglacial basin under the ice sheet, not a surface location.
+status: active

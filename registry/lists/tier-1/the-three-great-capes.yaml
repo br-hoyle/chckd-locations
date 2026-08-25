@@ -1,6 +1,6 @@
 slug: the-three-great-capes
 name: The Three Great Capes
-description: Iconic sailing milestone — niche but die-hard.
+description: The three headlands that mark the classic clipper/round-the-world sailing route.
 tier: 1
 list_category: natural
 governing_body: Maritime tradition
@@ -8,7 +8,34 @@ dimension: null
 approx_count: 3
 tags: []
 source:
-  type: unimplemented
-  notes: Fill in a real source (static place list, or an api-backed source module)
-    and flip status to active.
-status: stub
+  type: static
+  notes: >
+    Fixed membership, not worth an API. Cape Agulhas (not the more famous
+    Cape of Good Hope) is the technically correct southern tip of Africa
+    used in the sailing tradition.
+  places:
+    - name: Cape Agulhas
+      external_id: cape-agulhas
+      external_id_source: manual
+      category_path: natural.water.coastal.cape
+      lat: -34.8333
+      lng: 20.0000
+      country_code: "ZA"
+      description: Southernmost tip of Africa, and the official dividing point between the Atlantic and Indian Oceans.
+    - name: Cape Leeuwin
+      external_id: cape-leeuwin
+      external_id_source: manual
+      category_path: natural.water.coastal.cape
+      lat: -34.3733
+      lng: 115.1360
+      country_code: "AU"
+      description: Southwesternmost point of Australia, where the Indian and Southern Oceans meet.
+    - name: Cape Horn
+      external_id: cape-horn
+      external_id_source: manual
+      category_path: natural.water.coastal.cape
+      lat: -55.9833
+      lng: -67.2833
+      country_code: "CL"
+      description: Southernmost headland of South America, notorious among sailors for its treacherous waters.
+status: active

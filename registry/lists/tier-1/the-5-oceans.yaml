@@ -1,6 +1,6 @@
 slug: the-5-oceans
 name: The 5 Oceans
-description: Simple but meaningful geographic milestone.
+description: The five oceans recognized by the International Hydrographic Organization.
 tier: 1
 list_category: natural
 governing_body: International Hydrographic Org
@@ -8,7 +8,45 @@ dimension: null
 approx_count: 5
 tags: []
 source:
-  type: unimplemented
-  notes: Fill in a real source (static place list, or an api-backed source module)
-    and flip status to active.
-status: stub
+  type: static
+  notes: >
+    Fixed membership, not worth an API. Coordinates are representative
+    center points, not a bounded region — oceans don't have a single
+    canonical "location" the way a mountain summit does.
+  places:
+    - name: Pacific Ocean
+      external_id: pacific-ocean
+      external_id_source: manual
+      category_path: natural.water.ocean
+      lat: 0.0
+      lng: -160.0
+      description: World's largest and deepest ocean, spanning from the Arctic to the Southern Ocean between Asia/Australia and the Americas.
+    - name: Atlantic Ocean
+      external_id: atlantic-ocean
+      external_id_source: manual
+      category_path: natural.water.ocean
+      lat: 0.0
+      lng: -30.0
+      description: Second-largest ocean, separating the Americas from Europe and Africa.
+    - name: Indian Ocean
+      external_id: indian-ocean
+      external_id_source: manual
+      category_path: natural.water.ocean
+      lat: -20.0
+      lng: 80.0
+      description: Third-largest ocean, bounded by Africa, Asia, Australia, and the Southern Ocean.
+    - name: Southern Ocean
+      external_id: southern-ocean
+      external_id_source: manual
+      category_path: natural.water.ocean
+      lat: -65.0
+      lng: 0.0
+      description: The ocean encircling Antarctica, formally recognized by the IHO in 2000.
+    - name: Arctic Ocean
+      external_id: arctic-ocean
+      external_id_source: manual
+      category_path: natural.water.ocean
+      lat: 85.0
+      lng: 0.0
+      description: Smallest and shallowest ocean, largely covered by sea ice around the North Pole.
+status: active

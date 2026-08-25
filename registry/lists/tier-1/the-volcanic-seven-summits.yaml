@@ -1,14 +1,79 @@
 slug: the-volcanic-seven-summits
 name: The Volcanic Seven Summits
-description: Mountaineering variant — dedicated following.
+description: The highest volcano on each continent — a mountaineering variant of the Seven Summits.
 tier: 1
 list_category: natural
 governing_body: Various / Alpine Clubs
 dimension: null
 approx_count: 7
-tags: []
+tags:
+  - natural.land.volcanic
 source:
-  type: unimplemented
-  notes: Fill in a real source (static place list, or an api-backed source module)
-    and flip status to active.
-status: stub
+  type: static
+  notes: >
+    Fixed membership, not worth an API. Kilimanjaro and Elbrus already exist
+    as places from the-seven-summits list (same external_id, so they dedupe
+    to the same row) — their category_path and description here are kept
+    identical to that list's on purpose (the volcanic aspect is captured
+    via `tags` instead), so re-running either list is a true no-op rather
+    than perpetually overwriting the other's description back and forth.
+  places:
+    - name: Ojos del Salado
+      external_id: ojos-del-salado
+      external_id_source: manual
+      category_path: natural.land.volcanic.stratovolcano
+      lat: -27.1085
+      lng: -68.5411
+      country_code: "CL"
+      description: Highest volcano in the world and on the South American continent, on the Chile-Argentina border.
+    - name: Mount Damavand
+      external_id: damavand
+      external_id_source: manual
+      category_path: natural.land.volcanic.stratovolcano
+      lat: 35.9547
+      lng: 52.1090
+      country_code: "IR"
+      description: Highest volcano in Asia, and the highest peak in the Middle East.
+    - name: Pico de Orizaba
+      external_id: pico-de-orizaba
+      external_id_source: manual
+      category_path: natural.land.volcanic.stratovolcano
+      lat: 19.0303
+      lng: -97.2687
+      country_code: "MX"
+      description: Highest volcano in North America, also known as Citlaltépetl.
+    - name: Kilimanjaro
+      external_id: kilimanjaro
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      tags: [natural.land.volcanic.stratovolcano]
+      lat: -3.0674
+      lng: 37.3556
+      country_code: "TZ"
+      description: Highest peak in Africa.
+    - name: Mount Elbrus
+      external_id: elbrus
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      tags: [natural.land.volcanic.stratovolcano]
+      lat: 43.3499
+      lng: 42.4453
+      country_code: "RU"
+      description: Highest peak in Europe.
+    - name: Mount Sidley
+      external_id: sidley
+      external_id_source: manual
+      category_path: natural.land.volcanic.shield_volcano
+      lat: -77.0524
+      lng: -126.1051
+      country_code: "AQ"
+      description: Highest volcano in Antarctica, a dormant shield volcano in Marie Byrd Land.
+    - name: Mount Giluwe
+      external_id: giluwe
+      external_id_source: manual
+      category_path: natural.land.volcanic.shield_volcano
+      lat: -6.0397
+      lng: 143.8814
+      country_code: "PG"
+      description: Highest volcano in Oceania, a shield volcano in Papua New Guinea.
+status: active

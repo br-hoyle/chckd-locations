@@ -1,14 +1,130 @@
 slug: the-14-eight-thousanders
 name: The 14 Eight-Thousanders
-description: Elite mountaineering. Passionate niche.
+description: The fourteen mountains rising over 8,000m above sea level, all in the Himalaya and Karakoram.
 tier: 2
 list_category: natural
 governing_body: UIAA / Alpine Clubs
 dimension: null
 approx_count: 14
-tags: []
+tags:
+  - natural.land.mountains.summit
 source:
-  type: unimplemented
-  notes: Fill in a real source (static place list, or an api-backed source module)
-    and flip status to active.
-status: stub
+  type: static
+  notes: >
+    Fixed membership, not worth an API. Mount Everest already exists as a
+    place from the-seven-summits list (same external_id, dedupes to the
+    same row).
+  places:
+    - name: Mount Everest
+      external_id: everest
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 27.9881
+      lng: 86.9250
+      country_code: "NP"
+      description: Highest peak in Asia, and the world.
+    - name: K2
+      external_id: k2
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 35.8825
+      lng: 76.5133
+      country_code: "PK"
+      description: Second-highest mountain on Earth, 8,611m, Pakistan/China border — widely considered the most difficult of the 8,000m peaks.
+    - name: Kangchenjunga
+      external_id: kangchenjunga
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 27.7025
+      lng: 88.1475
+      country_code: "NP"
+      description: Third-highest mountain on Earth, 8,586m, Nepal/India border.
+    - name: Lhotse
+      external_id: lhotse
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 27.9617
+      lng: 86.9333
+      country_code: "NP"
+      description: Fourth-highest mountain on Earth, 8,516m, directly connected to Everest via the South Col.
+    - name: Makalu
+      external_id: makalu
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 27.8897
+      lng: 87.0889
+      country_code: "NP"
+      description: Fifth-highest mountain on Earth, 8,485m, a distinctive four-sided pyramid near Everest.
+    - name: Cho Oyu
+      external_id: cho-oyu
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 28.0942
+      lng: 86.6608
+      country_code: "NP"
+      description: Sixth-highest mountain on Earth, 8,188m — generally considered the least technically difficult 8,000m peak.
+    - name: Dhaulagiri I
+      external_id: dhaulagiri-i
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 28.6975
+      lng: 83.4931
+      country_code: "NP"
+      description: Seventh-highest mountain on Earth, 8,167m, in west-central Nepal.
+    - name: Manaslu
+      external_id: manaslu
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 28.5497
+      lng: 84.5597
+      country_code: "NP"
+      description: Eighth-highest mountain on Earth, 8,163m — its name means "mountain of the spirit."
+    - name: Nanga Parbat
+      external_id: nanga-parbat
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 35.2372
+      lng: 74.5892
+      country_code: "PK"
+      description: Ninth-highest mountain on Earth, 8,126m — known as "Killer Mountain" for its steep relief and history of fatalities.
+    - name: Annapurna I
+      external_id: annapurna-i
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 28.5961
+      lng: 83.8203
+      country_code: "NP"
+      description: Tenth-highest mountain on Earth, 8,091m — historically the deadliest 8,000m peak by summit-to-fatality ratio.
+    - name: Gasherbrum I
+      external_id: gasherbrum-i
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 35.7247
+      lng: 76.6964
+      country_code: "PK"
+      description: 11th-highest mountain on Earth, 8,080m, also known as Hidden Peak, in the Karakoram.
+    - name: Broad Peak
+      external_id: broad-peak
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 35.8117
+      lng: 76.5658
+      country_code: "PK"
+      description: 12th-highest mountain on Earth, 8,051m, in the Karakoram near K2.
+    - name: Gasherbrum II
+      external_id: gasherbrum-ii
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 35.7583
+      lng: 76.6533
+      country_code: "PK"
+      description: 13th-highest mountain on Earth, 8,035m, in the Karakoram.
+    - name: Shishapangma
+      external_id: shishapangma
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 28.3525
+      lng: 85.7789
+      country_code: "CN"
+      description: 14th-highest mountain on Earth, 8,027m — the only 8,000m peak located entirely within China (Tibet).
+status: active

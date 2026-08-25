@@ -1,14 +1,74 @@
 slug: new-seven-wonders-of-the-world
 name: New Seven Wonders of the World
-description: Highly referenced modern list.
+description: The 2007 New7Wonders Foundation poll result — the modern, globally-voted counterpart to the ancient list.
 tier: 1
-list_category: place
+list_category: man-made
 governing_body: New7Wonders Foundation
 dimension: null
 approx_count: 7
 tags: []
 source:
-  type: unimplemented
-  notes: Fill in a real source (static place list, or an api-backed source module)
-    and flip status to active.
-status: stub
+  type: static
+  notes: >
+    Fixed membership, not worth an API. The Pyramids of Giza were given
+    honorary status by the foundation but were not one of the seven voted
+    winners, so they're intentionally excluded from this list (they're
+    already covered by seven-wonders-of-the-ancient-world).
+  places:
+    - name: Great Wall of China
+      external_id: great-wall-of-china
+      external_id_source: manual
+      category_path: place.structure.fortification.wall
+      lat: 40.3584
+      lng: 116.0202
+      country_code: "CN"
+      description: Coordinates given for the Badaling section, the most-visited and most iconic stretch.
+    - name: Petra
+      external_id: petra
+      external_id_source: manual
+      category_path: place.structure.archaelogical.ancient_ruin
+      lat: 30.3285
+      lng: 35.4444
+      country_code: "JO"
+      description: Rock-cut city carved by the Nabataeans, famous for the Al-Khazneh (Treasury) facade.
+    - name: Christ the Redeemer
+      external_id: christ-the-redeemer
+      external_id_source: manual
+      category_path: place.structure.monument.statue_sculpture
+      lat: -22.9519
+      lng: -43.2105
+      country_code: "BR"
+      description: Art Deco statue atop Corcovado mountain, overlooking Rio de Janeiro.
+    - name: Machu Picchu
+      external_id: machu-picchu
+      external_id_source: manual
+      category_path: place.structure.archaelogical.ancient_ruin
+      lat: -13.1631
+      lng: -72.5450
+      country_code: "PE"
+      description: 15th-century Inca citadel set high in the Andes above the Sacred Valley.
+    - name: Chichen Itza
+      external_id: chichen-itza
+      external_id_source: manual
+      category_path: place.structure.archaelogical.ancient_ruin
+      lat: 20.6843
+      lng: -88.5678
+      country_code: "MX"
+      description: Major Maya city on the Yucatán Peninsula, famous for the El Castillo pyramid.
+    - name: Colosseum
+      external_id: colosseum
+      external_id_source: manual
+      category_path: place.structure.archaelogical.ancient_ruin
+      lat: 41.8902
+      lng: 12.4922
+      country_code: "IT"
+      description: Largest amphitheater ever built, in the center of Rome.
+    - name: Taj Mahal
+      external_id: taj-mahal
+      external_id_source: manual
+      category_path: place.structure.monument.memorial
+      lat: 27.1751
+      lng: 78.0421
+      country_code: "IN"
+      description: White marble mausoleum in Agra, built by Mughal emperor Shah Jahan for his wife Mumtaz Mahal.
+status: active

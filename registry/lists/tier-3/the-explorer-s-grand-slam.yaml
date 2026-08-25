@@ -1,14 +1,90 @@
 slug: the-explorer-s-grand-slam
 name: The Explorer's Grand Slam
-description: Both poles + Seven Summits. Ultra niche.
+description: The Seven Summits plus reaching both the North and South Poles — nine milestones in total.
 tier: 3
 list_category: natural
 governing_body: The Explorers Club
 dimension: null
 approx_count: 9
-tags: []
+tags:
+  - natural.land.mountains.summit
 source:
-  type: unimplemented
-  notes: Fill in a real source (static place list, or an api-backed source module)
-    and flip status to active.
-status: stub
+  type: static
+  notes: >
+    Fixed membership, not worth an API. The seven summit entries reuse the
+    exact external_ids from the-seven-summits list, so they dedupe to the
+    same seven place rows rather than creating duplicates — only the two
+    poles are genuinely new places here.
+  places:
+    - name: Mount Everest
+      external_id: everest
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 27.9881
+      lng: 86.9250
+      country_code: "NP"
+      description: Highest peak in Asia, and the world.
+    - name: Aconcagua
+      external_id: aconcagua
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: -32.6532
+      lng: -70.0109
+      country_code: "AR"
+      description: Highest peak in South America.
+    - name: Denali
+      external_id: denali
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 63.0692
+      lng: -151.0070
+      country_code: "US"
+      description: Highest peak in North America.
+    - name: Kilimanjaro
+      external_id: kilimanjaro
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: -3.0674
+      lng: 37.3556
+      country_code: "TZ"
+      description: Highest peak in Africa.
+    - name: Mount Elbrus
+      external_id: elbrus
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 43.3499
+      lng: 42.4453
+      country_code: "RU"
+      description: Highest peak in Europe.
+    - name: Puncak Jaya
+      external_id: puncak-jaya
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: -4.0784
+      lng: 137.1585
+      country_code: "ID"
+      description: Highest peak in Oceania/Australasia (the "Seven Summits" variant used in place of Mount Kosciuszko).
+    - name: Vinson Massif
+      external_id: vinson-massif
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: -78.5254
+      lng: -85.6172
+      country_code: "AQ"
+      description: Highest peak in Antarctica.
+    - name: North Pole
+      external_id: north-pole
+      external_id_source: manual
+      category_path: natural.water.ice.ice_field
+      lat: 90.0
+      lng: 0.0
+      description: Geographic North Pole, on drifting Arctic Ocean sea ice — not a fixed land location.
+    - name: South Pole
+      external_id: south-pole
+      external_id_source: manual
+      category_path: natural.water.ice.ice_field
+      lat: -90.0
+      lng: 0.0
+      country_code: "AQ"
+      description: Geographic South Pole, atop roughly 2,700m of ice on the Antarctic Plateau.
+status: active

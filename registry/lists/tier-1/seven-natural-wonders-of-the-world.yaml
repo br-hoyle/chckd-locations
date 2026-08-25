@@ -1,6 +1,6 @@
 slug: seven-natural-wonders-of-the-world
 name: Seven Natural Wonders of the World
-description: Short, aspirational, globally known.
+description: CNN's 1997 popular list of seven natural wonders, still widely cited today.
 tier: 1
 list_category: natural
 governing_body: CNN / widely recognized
@@ -8,7 +8,72 @@ dimension: null
 approx_count: 7
 tags: []
 source:
-  type: unimplemented
-  notes: Fill in a real source (static place list, or an api-backed source module)
-    and flip status to active.
-status: stub
+  type: static
+  notes: >
+    Fixed membership, not worth an API. Mount Everest already exists as a
+    place from the-seven-summits list (same external_id, dedupes to the same
+    row). The Aurora Borealis/Australis entry is a phenomenon, not a fixed
+    place — represented here with a representative viewing location
+    (Fairbanks, Alaska) and left uncategorized (category_path: null) rather
+    than forcing it into the place taxonomy.
+  places:
+    - name: Grand Canyon
+      external_id: grand-canyon
+      external_id_source: manual
+      category_path: natural.land.valley.canyon
+      lat: 36.1069
+      lng: -112.1129
+      country_code: "US"
+      description: Immense river-carved canyon in Arizona, up to 18 miles wide and over a mile deep.
+    - name: Great Barrier Reef
+      external_id: great-barrier-reef
+      external_id_source: manual
+      category_path: natural.ecosystem.marine.coral_reef_system
+      lat: -18.2871
+      lng: 147.6992
+      country_code: "AU"
+      description: World's largest coral reef system, off the coast of Queensland.
+    - name: Harbor of Rio de Janeiro
+      external_id: guanabara-bay
+      external_id_source: manual
+      category_path: natural.water.ocean.gulf_bay
+      lat: -22.8305
+      lng: -43.1631
+      country_code: "BR"
+      description: Guanabara Bay, the scenic natural harbor framed by Sugarloaf Mountain and Corcovado.
+    - name: Mount Everest
+      external_id: everest
+      external_id_source: manual
+      category_path: natural.land.mountains.summit
+      lat: 27.9881
+      lng: 86.9250
+      country_code: "NP"
+      description: Highest peak in Asia, and the world.
+    - name: Aurora Borealis
+      external_id: aurora-borealis
+      external_id_source: manual
+      category_path: null
+      lat: 64.8378
+      lng: -147.7164
+      country_code: "US"
+      description: >
+        The Northern Lights — not a single fixed place, but a polar
+        atmospheric phenomenon. Represented here by Fairbanks, Alaska, one
+        of the world's most-visited aurora viewing locations.
+    - name: Paricutín
+      external_id: paricutin
+      external_id_source: manual
+      category_path: natural.land.volcanic
+      lat: 19.4928
+      lng: -102.2549
+      country_code: "MX"
+      description: Cinder cone volcano that emerged from a cornfield in 1943 — the only wonder on this list to be born within recorded human history.
+    - name: Victoria Falls
+      external_id: victoria-falls
+      external_id_source: manual
+      category_path: natural.water.waterfall.waterfall
+      lat: -17.9243
+      lng: 25.8572
+      country_code: "ZW"
+      description: One of the world's largest waterfalls, on the Zambezi River between Zimbabwe and Zambia.
+status: active

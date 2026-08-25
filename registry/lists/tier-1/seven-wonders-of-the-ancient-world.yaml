@@ -1,14 +1,75 @@
 slug: seven-wonders-of-the-ancient-world
 name: Seven Wonders of the Ancient World
-description: Educational, widely known.
+description: The classical list of monumental structures, compiled by Hellenic scholars. Only Giza survives today.
 tier: 1
-list_category: place
+list_category: man-made
 governing_body: Historic consensus
 dimension: null
 approx_count: 7
 tags: []
 source:
-  type: unimplemented
-  notes: Fill in a real source (static place list, or an api-backed source module)
-    and flip status to active.
-status: stub
+  type: static
+  notes: >
+    Fixed membership, not worth an API. Six of the seven no longer exist —
+    coordinates are for the historic/archaeological site, not a standing
+    structure. The Hanging Gardens of Babylon's existence and exact location
+    are themselves disputed by historians; the coordinate given is the
+    traditional site near Babylon, Iraq.
+  places:
+    - name: Great Pyramid of Giza
+      external_id: great-pyramid-of-giza
+      external_id_source: manual
+      category_path: place.structure.archaelogical.ancient_ruin
+      lat: 29.9792
+      lng: 31.1342
+      country_code: "EG"
+      description: The only ancient wonder still standing, built as a tomb for Pharaoh Khufu around 2560 BCE.
+    - name: Hanging Gardens of Babylon
+      external_id: hanging-gardens-of-babylon
+      external_id_source: manual
+      category_path: place.structure.archaelogical.ancient_ruin
+      lat: 32.5355
+      lng: 44.4275
+      country_code: "IQ"
+      description: Legendary terraced gardens; their existence and exact location are disputed. Site given is traditional Babylon, near Hillah.
+    - name: Statue of Zeus at Olympia
+      external_id: statue-of-zeus-at-olympia
+      external_id_source: manual
+      category_path: place.structure.monument.statue_sculpture
+      lat: 37.6383
+      lng: 21.6300
+      country_code: "GR"
+      description: Colossal seated statue of Zeus by Phidias, housed in the Temple of Zeus at Olympia; destroyed in antiquity.
+    - name: Temple of Artemis at Ephesus
+      external_id: temple-of-artemis-at-ephesus
+      external_id_source: manual
+      category_path: place.structure.religious.temple
+      lat: 37.9495
+      lng: 27.3639
+      country_code: "TR"
+      description: Great Greek temple near modern Selçuk, rebuilt several times before its final destruction in 401 CE.
+    - name: Mausoleum at Halicarnassus
+      external_id: mausoleum-at-halicarnassus
+      external_id_source: manual
+      category_path: place.structure.archaelogical.ancient_ruin
+      lat: 37.0384
+      lng: 27.4241
+      country_code: "TR"
+      description: Monumental tomb of Mausolus at Halicarnassus, modern Bodrum — origin of the word "mausoleum."
+    - name: Colossus of Rhodes
+      external_id: colossus-of-rhodes
+      external_id_source: manual
+      category_path: place.structure.monument.statue_sculpture
+      lat: 36.4477
+      lng: 28.2241
+      country_code: "GR"
+      description: Giant bronze statue of the sun god Helios overlooking Rhodes harbor; toppled by an earthquake in 226 BCE.
+    - name: Lighthouse of Alexandria
+      external_id: lighthouse-of-alexandria
+      external_id_source: manual
+      category_path: place.structure.lighthouse.lighthouse
+      lat: 31.2139
+      lng: 29.8856
+      country_code: "EG"
+      description: Ancient lighthouse on Pharos island, one of the tallest structures in the ancient world; destroyed by earthquakes.
+status: active
